@@ -409,6 +409,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	padding-bottom: 80px;
 }
 
+#home {
+	overflow-x:hidden;
+}
+
 #home.hero-area {
 	height:calc(100vh - 80px);
 	padding-top: 0px;
@@ -476,6 +480,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 /* -- About Img -- */
+#about {
+	overflow-x:hidden;
+}
+
 .about-img {
 	margin-top:40px;
 }
@@ -1258,6 +1266,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	footer .quick-links {
 		text-align: left !important;
 	}
+
+	body {
+		overflow-x:hidden !important;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1281,6 +1293,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		margin-left: 0px;
 	}--*/
 
+	body {
+		overflow-x:hidden !important;
+	}
+
 	#about .about-text {
 		text-align: center;
 	}
@@ -1288,6 +1304,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	.container {
 		padding: 8px;
 		margin: 0px auto !important;
+	}
+
+	#services {
+		overflow-x:hidden;
 	}
 
 	#services .feature-content h4 {
