@@ -489,6 +489,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	margin-top:40px;
 } */
 
+.about-img {
+	margin-top: 70px;
+}
+
 .about-img > img {
 	width:100%;
 }
