@@ -165,7 +165,7 @@ blockquote:before{
 	position:relative;
 	display:inline-block;
 	padding:10px 30px;
-	background-color: #FF6700;
+	background-color: #5cb85c;
 	border: 2px solid transparent;
 	border-radius: 40px;
 	color: #FFF;
@@ -175,8 +175,8 @@ blockquote:before{
 
 .main-button:hover , .main-button:focus {
 	background-color:#fff;
-	border: 2px solid #FF6700;
-	color:#FF6700;
+	border: 2px solid #5cb85c;
+	color:#5cb85c;
 }
 
 .main-button.icon-button:hover , .main-button.icon-button:focus {
@@ -472,7 +472,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	border-radius: 50%;
 	font-size:30px;
 	border:1px solid #EBEBEB;
-	color:#FF6700;
+	color:#5cb85c;
 }
 
 .feature-content {
@@ -526,7 +526,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .about-video:hover .play-icon {
-	color:#FF6700;
+	color:#5cb85c;
 }
 
 @-webkit-keyframes play-animation {
@@ -558,7 +558,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:#FF6700;
+	background-color:#5cb85c;
 	opacity:0.7;
 }
 
@@ -589,7 +589,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:#FF6700;
+	background-color:#5cb85c;
 	opacity:0;
 	-webkit-transition:0.2s opacity;
 	transition:0.2s opacity;
@@ -1355,7 +1355,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	width:40px;
 	height:40px;
 	border: 1px solid #EBEBEB;
-    border-top: 1px solid #FF6700;
+    border-top: 1px solid #5cb85c;
     border-radius: 50%;
 	-webkit-animation: 1s preloader linear infinite;
 	        animation: 1s preloader linear infinite;
@@ -1390,22 +1390,22 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .list-inline li i {
-	color: #FF6700;
+	color: #5cb85c;
 }
 
-#technology .card-img img {
+#purpose .card-img img {
 	border-radius: 50%;
 	position: relative;
 	top: 70px;
 }
 
-#technology .card-img {
+#purpose .card-img {
 	width: 180px;
 	height: 180px;
 	margin: 0px auto;
 }
 
-#technology .card-content {
+#purpose .card-content {
 	padding: 60px;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -1421,7 +1421,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .back-to-top i {
     font-size: 50px;
-    color: #FF6700;
+    color: #5cb85c;
 }
 
 footer {
@@ -1442,14 +1442,14 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
 .footer_ul_amrc li {padding:0px 0px 5px 0px; color:#CCC;}
 .footer_ul_amrc li a{ color:#CCC;}
-.footer_ul_amrc li a:hover{ color:#FF6700; text-decoration:none;}
+.footer_ul_amrc li a:hover{ color:#5cb85c; text-decoration:none;}
 .fleft { float:left;}
 .padding-right { padding-right:10px; }
 
 .footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
 .footer_ul2_amrc li p { display:table; }
 .footer_ul2_amrc li a { color: white;}
-.footer_ul2_amrc li a:hover { text-decoration:none; color: #FF6700;}
+.footer_ul2_amrc li a:hover { text-decoration:none; color: #5cb85c;}
 .footer_ul2_amrc li i { margin-top:5px;}
 
 .bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
@@ -1464,10 +1464,10 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 }
 .foote_bottom_ul_amrc li { display:inline;}
 .foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
-.foote_bottom_ul_amrc li a:hover { color: #FF6700; }
+.foote_bottom_ul_amrc li a:hover { color: #5cb85c; }
 
 .social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
 .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
-.social_footer_ul li a:hover { color: #FF6700; }
+.social_footer_ul li a:hover { color: #5cb85c; }
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
