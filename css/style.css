@@ -1260,7 +1260,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 @media only screen and (max-width: 767px) {
 	/*-- Hero area --*/
 	.hero-area h1 {
-		font-size:30px;
+		font-size:22px;
 	}
 
 	/* -- Breadcrumb -- */
@@ -1279,6 +1279,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	#services .feature-content h4 {
 		text-align: center;
+	}
+
+	.section-header {
+		margin-top: 0px !important;
+	}
+
+	.section {
+		padding-bottom: 0px !important;
 	}
 
 	footer .quick-links {
@@ -1319,6 +1327,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		text-align: center;
 	}
 
+	.home h1 {
+			font-size:24px;
+	}
+	.section-header {
+		margin-top: 0px !important;
+	}
+
 	.container {
 		padding: 8px;
 		margin: 0px auto !important;
@@ -1330,6 +1345,15 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	#services .feature-content h4 {
 		text-align: center;
+	}
+
+	.section {
+		padding-bottom: 0px !important;
+	}
+
+	.section-hr {
+		margin-top: 40px !important;
+		margin-bottom: 40px !important;
 	}
 
 	footer .quick-links {
