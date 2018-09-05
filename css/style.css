@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size:38px;
+	font-size:32px;
 }
 
 h2 {
@@ -129,7 +129,8 @@ blockquote:before{
 }
 
 .section-header {
-	margin-bottom:40px;
+	margin-bottom:60px;
+	margin-top: 60px;
 }
 
 /* --- Background Image --- */
@@ -478,6 +479,18 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .feature-content {
 	padding-left:0px;
+}
+
+.feature-content a {
+	font-size: 19px;
+}
+
+.feature-content a:hover{
+	color: #d9534f;
+}
+
+.feature-content p {
+	margin-top: 8px;
 }
 
 /* -- About Img -- */
@@ -1398,19 +1411,19 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	color: #5cb85c;
 }
 
-#purpose .card-img img {
+#meetus .card-img img {
 	border-radius: 50%;
 	position: relative;
 	top: 70px;
 }
 
-#purpose .card-img {
+#meetus .card-img {
 	width: 180px;
 	height: 180px;
 	margin: 0px auto;
 }
 
-#purpose .card-content {
+#meetus .card-content {
 	padding: 60px;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -1438,6 +1451,18 @@ footer .quick-links {
 	text-align: center;
 }
 
+/* technology overlay */
+
+.tech-image-text {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 15px;
+}
+
+.tech-image-text a:hover {
+	color: #5cb85c;
+}
+
 /*footer*/
 .col_white_amrc { color:#FFF;}
 footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
@@ -1449,13 +1474,13 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .footer_ul_amrc li a{ color:#CCC;}
 .footer_ul_amrc li a:hover{ color:#5cb85c; text-decoration:none;}
 .fleft { float:left;}
-.padding-right { padding-right:10px; }
+.padding-right { padding-right:30px; }
 
 .footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
 .footer_ul2_amrc li p { display:table; }
 .footer_ul2_amrc li a { color: white;}
 .footer_ul2_amrc li a:hover { text-decoration:none; color: #5cb85c;}
-.footer_ul2_amrc li i { margin-top:5px;}
+.footer_ul2_amrc li i { margin-top:15px; font-size: 20px;}
 
 .bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
 .foote_bottom_ul_amrc {
