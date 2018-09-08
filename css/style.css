@@ -1536,3 +1536,14 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 	display: flex;
     justify-content: center;
 }
+
+.close{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+	border: 1px solid #ccc;
+}
