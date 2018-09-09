@@ -1549,3 +1549,8 @@ input[type="email"] {
     	width: 50%;
 	}
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
