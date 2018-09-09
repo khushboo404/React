@@ -86,7 +86,7 @@ blockquote:before{
 .section {
 	position:relative;
 	padding-top:30px;
-	padding-bottom:50px;
+	/* padding-bottom:50px; */
 }
 
 .section-hr {
@@ -96,7 +96,6 @@ blockquote:before{
 }
 
 .section-header {
-	margin-bottom:60px;
 	margin-top: 60px;
 }
 
@@ -1521,4 +1520,11 @@ input[type="email"] {
 
 #nav .menu a{
 	font-size: 18px;
+}
+
+.title-bold{
+	font-size: 19px;
+	font-family: 'Lato', sans-serif;
+    color: #374050;
+    font-weight: 700;
 }
