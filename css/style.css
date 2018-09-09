@@ -1537,3 +1537,7 @@ input[type="email"] {
 .text-justify{
 	text-align: justify;
 }
+
+.video iframe{
+	width: 100%;
+}
