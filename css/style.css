@@ -1541,3 +1541,11 @@ input[type="email"] {
 .video iframe{
 	width: 100%;
 }
+
+
+@media (max-width: 960px) and (min-width: 501px) {
+	.foote_bottom_ul_amrc li{
+		display: inline-block;
+    	width: 50%;
+	}
+}
