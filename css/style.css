@@ -1405,6 +1405,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	border-radius: 50%;
 	position: relative;
 	top: 70px;
+	height: 150px;
+    width: 180px;
 }
 
 #meetus .card-img {
