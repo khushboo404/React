@@ -1532,3 +1532,7 @@ input[type="email"] {
     color: #374050;
     font-weight: 700;
 }
+
+.text-justify{
+	text-align: justify;
+}
