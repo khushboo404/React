@@ -106,9 +106,9 @@ blockquote:before{
 	right:0;
 	top:0;
 	bottom:0;
-	background-position:center;
+	background-position:bottom;
 	background-size:cover;
-	background-image: url("../img/ag4.jpg");
+	background-image: url("../img/drone.png");
 }
 
 .bg-image.bg-parallax {
