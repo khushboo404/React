@@ -1406,18 +1406,20 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	position: relative;
 	top: 70px;
 	height: 150px;
-    width: 180px;
+    width: 150px;
 }
 
 #meetus .card-img {
 	width: 180px;
 	height: 180px;
 	margin: 0px auto;
+	display: flex;
+    justify-content: center;
 }
 
 #meetus .card-content {
 	padding: 60px;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .back-to-top {
