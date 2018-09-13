@@ -1554,3 +1554,10 @@ input[type="email"] {
     margin-right: 0;
     margin-left: 0;
 }
+
+/* Technology page */
+
+.tech-img {
+	display: flex;
+    justify-content: center;
+}
