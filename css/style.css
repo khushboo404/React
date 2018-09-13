@@ -112,7 +112,7 @@ blockquote:before{
 }
 
 .bg-image.bg-parallax {
-	background-attachment:fixed;
+	/* background-attachment:fixed; */
 }
 
 .bg-image.overlay:after {
