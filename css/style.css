@@ -1248,11 +1248,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	}
 
 	.section-header {
-		margin-top: 0px !important;
+		/* margin-top: 0px !important; */
 	}
 
 	.section {
-		padding-bottom: 0px !important;
+		/* padding-bottom: 0px !important; */
 	}
 
 	footer .quick-links {
