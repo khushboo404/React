@@ -1,5 +1,7 @@
-(function($) {
-	"use strict"
+
+
+$(function() {
+  "use strict"
 	
 	// Preloader
 	$(window).on('load', function() {
@@ -9,9 +11,29 @@
 	// Mobile Toggle Btn
 	$('.navbar-toggle').on('click',function(){
 		$('#header').toggleClass('nav-collapse')
-	});
-	
-})(jQuery);
+  });
+
+
+  toastr.options = {
+    "closeButton": false,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": true,
+    "positionClass": "toast-top-right",
+    "preventDuplicates": false,
+    "onclick": null,
+    "showDuration": "300",
+    "hideDuration": "1000",
+    "timeOut": "5000",
+    "extendedTimeOut": "1000",
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+  }
+
+
+});
 
 
 AOS.init({
@@ -47,3 +69,50 @@ AOS.init({
     }  // End if
   });
 });
+
+// $("#name").required = true;
+
+function clearData(){
+  $("#name").val("");
+  $("#phone").val("");
+  $("#email").val("");
+  $("#subject").val("");
+  $("#message").val("");
+}
+
+function sendEmail(){
+
+  $(".contact-loader").removeClass("display-none");
+
+  let name = $("#name").val();
+  let phone = $("#phone").val();
+  let email = $("#email").val();
+  let subject = $("#subject").val();
+  let message = $("#message").val();
+
+  let api = "https://salty-taiga-33882.herokuapp.com/send";
+
+
+  let data = {
+    "name": name,
+    "phone": phone,
+    "email":email,
+    "subject":subject,
+    "message":message
+  }
+
+  axios.post(api, data)
+  .then(function (response) {
+    console.log(response);
+    clearData();
+    $(".contact-loader").addClass("display-none");
+    $("#contactUsModal").modal("toggle");
+    toastr["success"]("Your query has been recorded. We will get back to you soon.");
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+
+}
+
+

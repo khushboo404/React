@@ -1561,3 +1561,34 @@ input[type="email"] {
 	display: flex;
     justify-content: center;
 }
+
+.display-none{
+	display: none;
+}
+
+.contact-loader{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.contact-loader .preloader{
+	position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 100px);
+}
+
+.contact-loader .preloader:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #EBEBEB;
+    border-top: 1px solid #5cb85c;
+    border-radius: 50%;
+    -webkit-animation: 1s preloader linear infinite;
+    animation: 1s preloader linear infinite;
+}
