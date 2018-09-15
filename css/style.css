@@ -304,6 +304,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		display: inline-block;
 		margin-left: 40px;
 	}
+
+
+
+	#meetus .card-content {
+		padding: 60px 20px !important;
+	}
 }
 
 /* -- Mobile Toggle Btn -- */
@@ -1448,6 +1454,10 @@ footer .quick-links {
 
 /* technology overlay */
 
+.tech-image{
+	margin-top: 10px;
+}
+
 .tech-image:hover {
 	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -1455,7 +1465,8 @@ footer .quick-links {
 .tech-image-text {
 	font-size: 20px;
 	font-weight: 600;
-	margin-top: 15px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .tech-image-text a:hover {
