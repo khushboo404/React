@@ -1303,7 +1303,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 			font-size:24px;
 	}
 	.section-header {
-		margin-top: 0px !important;
+		/* margin-top: 0px !important; */
 	}
 
 	.container {
